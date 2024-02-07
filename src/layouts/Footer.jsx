@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
       <div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between mx-12 xl:mx-0">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <img
@@ -73,7 +73,7 @@ function Footer() {
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="sm:flex sm:items-center sm:justify-between mx-12 xl:mx-0">
           <span className="text-sm text-white sm:text-center ">
             © 2023{" "}
             <a href="#" className="hover:underline">

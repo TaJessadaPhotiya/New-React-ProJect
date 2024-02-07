@@ -74,7 +74,7 @@ function Navbar() {
           TA GI CITY
         </div>
         <span
-          className=" flex absolute h-3 w-3 left-[18.4rem]"
+          className=" flex absolute h-3 w-3 left-[13.5rem] xl:left-[17rem] 2xl:left-[18.5rem]"
           data-aos="zoom-in-left"
           data-aos-duration="2000"
         >
