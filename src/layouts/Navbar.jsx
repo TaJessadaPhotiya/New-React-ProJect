@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,16 +60,21 @@ function Navbar() {
 
   return (
     <nav className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%    py-4 px-12 drop-shadow-lg rounded-b-lg backdrop-blur-xl">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mx-auto w-full max-w-screen-xl  ">
         <div
-          className="text-white text-2xl font-bold relative"
+          className="flex text-white text-2xl font-bold relative"
           data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
+          <img
+            src="public/icon/mickey.png"
+            className="h-8 me-3 "
+            alt="mickey Logo"
+          />
           TA GI CITY
         </div>
         <span
-          className=" flex absolute h-3 w-3 left-[11rem]"
+          className=" flex absolute h-3 w-3 left-[18.4rem]"
           data-aos="zoom-in-left"
           data-aos-duration="2000"
         >
@@ -138,13 +143,19 @@ function Navbar() {
             )}
           </li>
           <li>
-            <Link to="/services" className="text-white relative inline-block group ">
+            <Link
+              to="/services"
+              className="text-white relative inline-block group "
+            >
               <span className="absolute h-0.5 bg-gray-300 bottom-0 left-0 w-full transition-transform duration-500 ease-in-out transform scale-x-0 group-hover:scale-x-100"></span>
               Services
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="text-white relative inline-block group ">
+            <Link
+              to="/contact"
+              className="text-white relative inline-block group "
+            >
               <span className="absolute h-0.5 bg-gray-300 bottom-0 left-0 w-full transition-transform duration-500 ease-in-out transform scale-x-0 group-hover:scale-x-100"></span>
               Contact
             </Link>
