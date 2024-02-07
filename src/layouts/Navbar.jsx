@@ -60,7 +60,7 @@ function Navbar() {
 
   return (
     <nav className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%    py-4 px-12 drop-shadow-lg rounded-b-lg backdrop-blur-xl">
-      <div className="flex items-center justify-between mx-auto w-full max-w-screen-xl  ">
+      <div className="flex items-center justify-between mx-auto w-full ">
         <div
           className="flex text-white text-2xl font-bold relative"
           data-aos="zoom-in-up"
@@ -74,7 +74,7 @@ function Navbar() {
           TA GI CITY
         </div>
         <span
-          className=" flex absolute h-3 w-3 left-[13.5rem] xl:left-[17rem] 2xl:left-[18.5rem]"
+          className=" flex absolute h-3 w-3 left-[13.5rem] 2xl:left-[13.5rem]"
           data-aos="zoom-in-left"
           data-aos-duration="2000"
         >
